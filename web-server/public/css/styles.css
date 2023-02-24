@@ -1,0 +1,42 @@
+h1 {
+    color: rgb(0, 118, 120);
+    font-size: 50px;
+}
+
+body {
+    background-color: rgb(217, 216, 216);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+header a {
+    /* background-color: bisque; */
+    text-decoration: none;
+    color: brown;
+    margin-right: 10px;
+}
+
+footer {
+    border-top: 1px solid rgb(161, 159, 159);
+    margin-top: 10px;
+}
+
+.potrait {
+    width: 250px
+}
+.main-content{
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+
+}
+.main-content p {
+    margin-top: 50px;
+}
